@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/fragment_accountinfo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profile_img_logo"
+        style="@style/ImageStyle"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        app:srcCompat="@drawable/swayam_logo"
+        android:contentDescription="@string/swayam_logo" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        style="@style/TextViewStyle"
+        android:layout_margin="7dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        tools:text="Email: akhilbv1@gmail.com" />
+
+    <TextView
+        android:id="@+id/txtMobileNum"
+        style="@style/TextViewStyle"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Mobile number: 8341770556" />
+
+
+</LinearLayout>
